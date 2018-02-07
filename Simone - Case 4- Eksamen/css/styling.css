@@ -1,0 +1,904 @@
+    /*Mobilversion*/
+    
+    @media only screen and (max-width: 1024px) {
+        /*side 1*/
+        .logoplace {
+            display: inline-block;
+            vertical-align: top;
+            width: 30%;
+            margin-right: 20px;
+            margin-top: 0px;
+            margin-left: -40px;
+            margin
+        }
+        /*nav. bar css*/
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            margin-right: 40px;
+            margin-top: 120px;
+            width: 90%;
+            position: absolute;
+            top: 0;
+            font-family: 'Roboto', Arial, sans-serif;
+        }
+        li {
+            display: inline;
+            float: right;
+        }
+        a {
+            display: block;
+            padding: 8px;
+            background-color: #ffffff;
+            color: black;
+            text-decoration: none;
+        }
+        a:hover {
+            color: #74abd1;
+        }
+        /*onepage body CSS*/
+        header {
+            margin-bottom: 0px;
+            width: 100%;
+        }
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        .pagephotobot {
+            border-bottom: 1px solid grey;
+            margin-top: -17px;
+        }
+        /* forside css */
+        #page1 {
+            height: 1000px;
+        }
+        .container {
+            position: relative;
+            text-align: center;
+            color: white;
+        }
+        .centered {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-family: 'Roboto', Arial, sans-serif;
+            font-size: 25px;
+            line-height: 120%;
+            color: black;
+        
+        }
+        /* cases css*/
+        #page2 {
+            height: 1000px;
+            background: #74abd1;
+            background: -moz-linear-gradient(top, #a7c7dc 0%, #9ab6b3 99%);
+            background: -webkit-linear-gradient(top, #a7c7dc 0%, #9ab6b3 99%);
+            background: linear-gradient(to bottom, #a7c7dc 0%, #9ab6b3 99%);
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7c7dc', endColorstr='#9ab6b3', GradientType=0);
+            width: 100%;
+            padding-top: 0px;
+        }
+        @import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+        @import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+        button.snip0043 {
+            font-family: 'Roboto', Arial, sans-serif;
+            border: none;
+            background-color: #ffffff;
+            border-radius: 5px;
+            color: rgba(0, 0, 0, 0.8);
+            cursor: pointer;
+            padding: 10px 30px;
+            display: inline-block;
+            margin: 16px 34px;
+            text-transform: uppercase;
+            font-weight: 500;
+            font-size: 13px;
+            outline: none;
+            position: relative;
+            -webkit-transition: all 0.3s;
+            transition: all 0.3s;
+        }
+        button.snip0043:before {
+            content: '';
+            display: block;
+            border-radius: 8px;
+            position: absolute;
+            left: 40px;
+            right: 40px;
+            top: -8px;
+            bottom: -8px;
+            background-color: #74abd1;
+            border-top: 1px solid rgba(255, 255, 255, 0.8);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+            opacity: 0.6;
+            z-index: -1;
+            -webkit-transition: all 0.3s;
+            transition: all 0.3s;
+        }
+        button.snip0043:hover:before,
+        button.snip0043.hover:before {
+            left: 0px;
+            right: 0px;
+            top: -5px;
+            bottom: -5px;
+            opacity: 1;
+        }
+        button.snip0043:active:before {
+            top: -3px;
+            bottom: -3px;
+            -webkit-transition: all 0.1s;
+            transition: all 0.1s;
+        }
+        #page4 {
+            height: 760px;
+            background: white;
+            width: 100%;
+            padding-top: 0px;
+        }
+        .billedmobil {
+            height: 760px;
+        }
+        .overfarve {
+            color: #74abd1;
+        }
+        .centeredp4 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-family: 'Roboto', Arial, sans-serif;
+            font-size: 25px;
+            margin-top: 60%;
+            line-height: 120%;
+        }
+        @import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+        @import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+        button.snip0043 {
+            font-family: 'Roboto', Arial, sans-serif;
+            border: none;
+            background-color: #74abd1;
+            border-radius: 5px;
+            color: #ffffff;
+            cursor: pointer;
+            padding: 10px 30px;
+            display: inline-block;
+            margin: 16px 34px;
+            text-transform: uppercase;
+            font-weight: 500;
+            font-size: 13px;
+            outline: none;
+            position: relative;
+            -webkit-transition: all 0.3s;
+            transition: all 0.3s;
+        }
+        button.snip0043:before {
+            content: '';
+            display: block;
+            border-radius: 8px;
+            position: absolute;
+            left: 40px;
+            right: 40px;
+            top: -8px;
+            bottom: -8px;
+            background-color: #74abd1;
+            border-top: 1px solid rgba(255, 255, 255, 0.8);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+            opacity: 0.6;
+            z-index: -1;
+            -webkit-transition: all 0.3s;
+            transition: all 0.3s;
+        }
+        button.snip0043:hover:before,
+        button.snip0043.hover:before {
+            left: 0px;
+            right: 0px;
+            top: -5px;
+            bottom: -5px;
+            opacity: 1;
+        }
+        button.snip0043:active:before {
+            top: -3px;
+            bottom: -3px;
+            -webkit-transition: all 0.1s;
+            transition: all 0.1s;
+        }
+        @import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+        @import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+        button.snip00 {
+            font-family: 'Roboto', Arial, sans-serif;
+            border: none;
+            background-color: #ffffff;
+            border-radius: 5px;
+            color: #74abd1;
+            cursor: pointer;
+            padding: 10px 30px;
+            display: inline-block;
+            margin: 16px 34px;
+            text-transform: uppercase;
+            font-weight: 500;
+            font-size: 13px;
+            outline: none;
+            position: relative;
+            -webkit-transition: all 0.3s;
+            transition: all 0.3s;
+        }
+        button.snip00:before {
+            content: '';
+            display: block;
+            border-radius: 8px;
+            position: absolute;
+            left: 40px;
+            right: 40px;
+            top: -8px;
+            bottom: -8px;
+            background-color: #ffffff;
+            border-top: 1px solid rgba(255, 255, 255, 0.8);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+            opacity: 0.6;
+            z-index: -1;
+            -webkit-transition: all 0.3s;
+            transition: all 0.3s;
+        }
+        button.snip00:hover:before,
+        button.snip00.hover:before {
+            left: 0px;
+            right: 0px;
+            top: -5px;
+            bottom: -5px;
+            opacity: 1;
+        }
+        button.snip00:active:before {
+            top: -3px;
+            bottom: -3px;
+            -webkit-transition: all 0.1s;
+            transition: all 0.1s;
+        }
+        /* om mig css */
+        #page3 {
+            height: 1000px;
+            width: 100%;
+            margin-top: 0px;
+            background:url(../img/baggrund.png)
+        }
+        .container2 {
+            position: relative;
+            text-align: center;
+            color: white;
+        }
+        .centered3 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-family: 'Roboto', Arial, sans-serif;
+            font-size: 25px;
+            line-height: 120%;
+        }
+        h1 {
+            line-height: 120%;
+        }
+        .overskrift {
+            font-size: 35px;
+            margin-left: 20px;
+        }
+        .trypic {
+            position: absolute;
+            top,
+            left: 0px;
+            width,
+            max-height: 100%;
+            border: 0;
+        }
+        .centeredp5 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+           font-family: 'Roboto', Arial, sans-serif;
+            font-size: 25px;
+            margin-top: 120%;
+            line-height: 120%;
+        }
+        .articletekstm {
+            font-family: 'Roboto', Arial, sans-serif;
+            line-height: 2.3;
+            text-align: justify;
+            margin-left: 8%;
+            margin-right: 8%;
+            margin-bottom: 8%;
+        }
+        .articlepicm {
+            display: block;
+            margin-left: auto;
+            margin-right: auto display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 84%;
+        }
+        .artikelrubrikm {
+           font-family: 'Roboto', Arial, sans-serif;
+            text-align: center;
+            color: black;
+            margin-left: 8%;
+            margin-right: 8%;
+        }
+        .sesm {
+           font-family: 'Roboto', Arial, sans-serif;
+            text-align: center;
+            color: black;
+            margin-bottom: 10px;
+        }
+        .roundcorm {
+            border: 1px solid #47484b;
+            -webkit-border-radius: 2px;
+            -moz-border-radius: 2px;
+            border-radius: 2px;
+        }
+        .uiaa {
+            width: 90%
+        }
+        .textcolorm {
+            color: black;
+           font-family: 'Roboto', Arial, sans-serif;
+            line-height: 2.3;
+            text-align: left; 
+            margin-left: 8%;
+            margin-right: 8%;
+            margin-bottom: 8%;
+            font-size: 0.9em;
+        
+        }
+        
+        .soclogom{
+            width="15%;
+        }
+        
+        
+        }
+    
+
+
+    /*desktop version*/
+    @media only screen and (min-width: 1025px) {
+        /*laptop*/
+        /*logo css*/
+        .logoplace {
+            display: inline-block;
+            vertical-align: top;
+            width: 30%;
+            margin-right: 20px;
+            margin-top: 30px;
+            margin-bottom: -100px;
+            margin-left: 10px;
+        }
+        /*nav. bar css*/
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            margin-right: 40px;
+            margin-top: 57px;
+            margin-bottom: 0px;
+            width: 90%;
+            position: absolute;
+            top: 0;
+            font-family: 'Roboto', Arial, sans-serif;
+        }
+        li {
+            display: inline;
+            float: right;
+        }
+        a {
+            display: block;
+            padding: 8px;
+            background-color: #ffffff;
+            color: black;
+            text-decoration: none;
+        }
+        a:hover {
+            color: #50779f;
+        }
+        /*onepage body CSS*/
+        header {
+            margin-bottom: 100px;
+            width: 100%;
+        }
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        .pagephotobot {
+            border-bottom: 1px solid grey;
+            margin-top: -17px;
+        }
+        /* forside css */
+        #page1 {
+            height: 1000px;
+        }
+        .container {
+            position: relative;
+            text-align: center;
+            color: white;
+        }
+        .centered {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+           font-family: 'Roboto', Arial, sans-serif;
+            font-size: 25px;
+            line-height: 120%;
+        }
+        /* cases css*/
+        #page4 {
+            height: 1000px;
+            background: white;
+            width: 100%;
+            padding-top: 0px;
+        }
+        .overfarve {
+            color: #74abd1;
+        }
+        .centeredp4 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-family: 'Roboto', Arial, sans-serif;
+            font-size: 25px;
+            margin-top: 120%;
+            line-height: 120%;
+        }
+        @import url(https://fonts.googleapis.com/css?family=Roboto);
+.snip1575 {
+  font-family: 'Roboto', Arial, sans-serif;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 0px 40px;
+  display: inline-block;
+  margin: 15px 30px;
+  text-transform: uppercase;
+  line-height: 2.7em;
+  letter-spacing: 1.5px;
+  font-size: 1em;
+  outline: none;
+  position: relative;
+  font-size: 16px;
+  border: 3px solid #fff;
+  background-color: transparent;
+  border-radius: 15px 0 15px 15px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.snip1575:before {
+  content: "";
+  position: absolute;
+  right: -3px;
+  top: -3px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 35px 35px 0;
+  border-color: transparent #50779f transparent transparent;
+  z-index: 1;
+}
+
+.snip1575:hover,
+.snip1575.hover {
+  border-color: #50779f;
+}
+        
+        /*knap 2*/
+
+              @import url(https://fonts.googleapis.com/css?family=Roboto);
+.snip01 {
+  font-family: 'Roboto', Arial, sans-serif;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 0px 40px;
+  display: inline-block;
+  margin: 15px 30px;
+  text-transform: uppercase;
+  line-height: 2.7em;
+  letter-spacing: 1.5px;
+  font-size: 1em;
+  outline: none;
+  position: relative;
+  font-size: 16px;
+  border: 3px solid #fff;
+  background-color: transparent;
+  border-radius: 15px 0 15px 15px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.snip01:before {
+  content: "";
+  position: absolute;
+  right: -3px;
+  top: -3px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 35px 35px 0;
+  border-color: transparent #50779f transparent transparent;
+  z-index: 1;
+}
+
+.snip01:hover,
+.snip01.hover {
+  border-color: #50779f;
+}
+        
+        /* knap 3 */
+        
+        .snip03 {
+  font-family: 'Roboto', Arial, sans-serif;
+  color: #74abd1;
+  cursor: pointer;
+  padding: 0px 40px;
+  display: inline-block;
+  margin: 15px 30px;
+  text-transform: uppercase;
+  line-height: 2.7em;
+  letter-spacing: 1.5px;
+  font-size: 1em;
+  outline: none;
+  position: relative;
+  font-size: 16px;
+  border: 3px solid #74abd1;
+  background-color: transparent;
+  border-radius: 15px 0 15px 15px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.snip03:before {
+  content: "";
+  position: absolute;
+  right: -3px;
+  top: -3px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 35px 35px 0;
+  border-color: transparent #50779f transparent transparent;
+  z-index: 1;
+}
+
+.snip03:hover,
+.snip03.hover {
+  border-color: #50779f;
+}
+
+
+
+        /* om mig css */
+        #page3 {
+            height: 1000px;
+            width: 100%;
+            margin-top: 0px;
+        }
+        .container2 {
+            position: relative;
+            text-align: center;
+            color: white;
+        }
+        .centered3 {
+            position: absolute;
+            top: 45%;
+            left: 27%;
+            transform: translate(-50%, -50%);
+            font-family: 'Roboto', Arial, sans-serif;
+            font-size: 25px;
+            line-height: 120%;
+        }
+        .overskrift {
+            font-size: 35px;
+            margin-left: 20px;
+        }
+        .articletekst {
+            -webkit-column-count: 2;
+            /* Chrome, Safari, Opera */
+            -moz-column-count: 2;
+            /* Firefox */
+            column-count: 2;
+            margin: 50px 300px 100px 300px;
+         font-family: 'Roboto', Arial, sans-serif;
+            line-height: 2.3;
+            text-align: justify;
+        }
+        .articlepic {
+            display: block;
+            margin-left: auto;
+            margin-right: auto display: block;
+            margin-left: auto;
+            margin-right: auto;
+           
+        }
+        .mellemrum {
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+        .articlemargin {
+            margin-left: 20px
+        }
+        .articlemargin2 {
+            margin-right: 20px;
+        }
+        .artikelrubrik {
+            font-family: 'Roboto', Arial, sans-serif;
+            text-align: center;
+            color: black;
+        }
+        .ses {
+            font-family: 'Roboto', Arial, sans-serif;
+            text-align: center;
+            color: black;
+            margin-bottom: 10px;
+        }
+        .roundcor {
+            border: 1px solid #47484b;
+            -webkit-border-radius: 2px;
+            -moz-border-radius: 2px;
+            border-radius: 2px;
+        }
+        .casebg {
+            background-color: white;
+        }
+        .casesbg {
+            background-color: white;
+        }
+        #page2 {
+            height: 1000px;
+            background-color: #74abd1;
+            
+            width: 100%;
+            padding-top: 0px;
+        }
+        .centeredp2 {
+            position: absolute;
+            top: 10%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-family: 'Roboto', Arial, sans-serif;
+            font-size: 25px;
+            margin-top: 0%;
+            line-height: 120%;
+        }
+        @import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+        @import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+        button.snip0043 {
+            font-family: 'Roboto', Arial, sans-serif;
+            border: none;
+            background-color: #ffffff;
+            border-radius: 5px;
+            color: rgba(0, 0, 0, 0.8);
+            cursor: pointer;
+            padding: 10px 30px;
+            display: inline-block;
+            margin: 16px 34px;
+            text-transform: uppercase;
+            font-weight: 500;
+            font-size: 13px;
+            outline: none;
+            position: relative;
+            -webkit-transition: all 0.3s;
+            transition: all 0.3s;
+        }
+        button.snip0043:before {
+            content: '';
+            display: block;
+            border-radius: 8px;
+            position: absolute;
+            left: 40px;
+            right: 40px;
+            top: -8px;
+            bottom: -8px;
+            background-color: #74abd1;
+            border-top: 1px solid rgba(255, 255, 255, 0.8);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+            opacity: 0.6;
+            z-index: -1;
+            -webkit-transition: all 0.3s;
+            transition: all 0.3s;
+        }
+        button.snip0043:hover:before,
+        button.snip0043.hover:before {
+            left: 0px;
+            right: 0px;
+            top: -5px;
+            bottom: -5px;
+            opacity: 1;
+        }
+        button.snip0043:active:before {
+            top: -3px;
+            bottom: -3px;
+            -webkit-transition: all 0.1s;
+            transition: all 0.1s;
+        }
+        #page4 {
+            height: 760px;
+            background: white;
+            width: 100%;
+            padding-top: 0px;
+        }
+        .overfarve {
+            color: #74abd1;
+        }
+        .centeredp2 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+         font-family: 'Roboto', Arial, sans-serif;
+            font-size: 25px;
+            margin-top: 27%;
+            line-height: 120%;
+        }
+        @import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+        @import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+        button.snip0043 {
+            font-family: 'Roboto', Arial, sans-serif;
+            border: none;
+            background-color: #74abd1;
+            border-radius: 5px;
+            color: #ffffff;
+            cursor: pointer;
+            padding: 10px 30px;
+            display: inline-block;
+            margin: 16px 34px;
+            text-transform: uppercase;
+            font-weight: 500;
+            font-size: 13px;
+            outline: none;
+            position: relative;
+            -webkit-transition: all 0.3s;
+            transition: all 0.3s;
+        }
+        button.snip0043:before {
+            content: '';
+            display: block;
+            border-radius: 8px;
+            position: absolute;
+            left: 40px;
+            right: 40px;
+            top: -8px;
+            bottom: -8px;
+            background-color: #74abd1;
+            border-top: 1px solid rgba(255, 255, 255, 0.8);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+            opacity: 0.6;
+            z-index: -1;
+            -webkit-transition: all 0.3s;
+            transition: all 0.3s;
+        }
+        button.snip0043:hover:before,
+        button.snip0043.hover:before {
+            left: 0px;
+            right: 0px;
+            top: -5px;
+            bottom: -5px;
+            opacity: 1;
+        }
+        button.snip0043:active:before {
+            top: -3px;
+            bottom: -3px;
+            -webkit-transition: all 0.1s;
+            transition: all 0.1s;
+        }
+        @import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+        @import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+        button.snip00 {
+           font-family: 'Roboto', Arial, sans-serif;
+            border: none;
+            background-color: #ffffff;
+            border-radius: 5px;
+            color: #74abd1;
+            cursor: pointer;
+            padding: 10px 30px;
+            display: inline-block;
+            margin: 16px 34px;
+            text-transform: uppercase;
+            font-weight: 500;
+            font-size: 13px;
+            outline: none;
+            position: relative;
+            -webkit-transition: all 0.3s;
+            transition: all 0.3s;
+        }
+        button.snip00:before {
+            content: '';
+            display: block;
+            border-radius: 8px;
+            position: absolute;
+            left: 40px;
+            right: 40px;
+            top: -8px;
+            bottom: -8px;
+            background-color: #ffffff;
+            border-top: 1px solid rgba(255, 255, 255, 0.8);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+            opacity: 0.6;
+            z-index: -1;
+            -webkit-transition: all 0.3s;
+            transition: all 0.3s;
+        }
+        button.snip00:hover:before,
+        button.snip00.hover:before {
+            left: 0px;
+            right: 0px;
+            top: -5px;
+            bottom: -5px;
+            opacity: 1;
+        }
+        button.snip00:active:before {
+            top: -3px;
+            bottom: -3px;
+            -webkit-transition: all 0.1s;
+            transition: all 0.1s;
+        }
+        .centeredp4 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-family: 'Roboto', Arial, sans-serif;
+            font-size: 25px;
+            margin-top: 22%;
+            line-height: 120%;
+        }
+        .migbillede {
+            width: 100%;
+            height: 1000px;
+            margin-bottom: -10px;
+            margin-top: 15px;
+        }
+        .centeredmig {
+            position: absolute;
+            top: 50%;
+            left: 27%;
+            transform: translate(-50%, -50%);
+           font-family: 'Roboto', Arial, sans-serif;
+            font-size: 25px;
+            line-height: 2.0;
+            text-align: center;
+        }
+        .textcontact {
+            font-family: 'Roboto', Arial, sans-serif;
+            color: white;
+        }
+        
+        .textcontact:hover{
+            color: #50779f;
+            text-decoration: none;
+            
+        }
+        
+        .contactbg {
+            background-color: rgba(255, 255, 255, .0);
+        
+        }
+        
+        .soclogo{
+            width: 9%;
+            padding:0;
+            margin:0;
+           
+        }
+        
+       
+        
+        
+ 
+        
+      
+        
+}
+    
+
+
